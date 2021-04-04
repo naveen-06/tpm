@@ -1,0 +1,13 @@
+.testForm {
+  width: 60%;
+  margin: auto;
+
+  .summary {
+    margin-bottom: 1.2rem;
+  }
+
+  .testFields {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

@@ -1,0 +1,23 @@
+.inputContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+
+  .inputLabel {
+    font-weight: bold;
+    color: white;
+  }
+
+  .inputField {
+    padding: 0.6rem 0.4rem;
+    border: solid 1px #ccc;
+    border-radius: 0.1rem;
+    outline: none;
+
+    &:active,
+    &:focus {
+      border: solid 1px darkblue;
+    }
+  }
+}
